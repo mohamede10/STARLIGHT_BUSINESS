@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>STARLIGHT BUSINESS</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="lib/twentytwenty/twentytwenty.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-danger m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-warning m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-success m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light ps-5 pe-0 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Heure d'ouverture: Lundi - Samedi :  08h - 17h, Dimanche : Fermé </small>
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-end">
+                <div class="position-relative d-inline-flex align-items-center bg-danger text-white top-shape px-5">
+                    <div class="me-3 pe-3 border-end py-2">
+                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>info@starlightgn.com</p>
+                    </div>
+                    <div class="py-2">
+                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+224 629 37 37 82 / 83</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+      
+            <img src="imgs/logo starlight.jpg" alt="" width="18%">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+       
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link text-danger active">Acceuil</a>
+                <a href="services.html" class="nav-item nav-link ">Services</a>
+                <a href="realisation.html" class="nav-item nav-link ">Réalisations</a>
+                <a href="coupdecoeur.html" class="nav-item nav-link">Coup de coeur</a>
+                <a href="notre equipe.html" class="nav-item nav-link">Nous joindre</a>
+                <a href="joindre.html" class="nav-item nav-link">Apropos</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+              
+            </div>
+           <!-- <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
+            <a href="appointment.html" class="btn btn-primary py-2 px-4 ms-3">Appointment</a>-->
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="imgs/photo2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Nous assurons une permanence</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">de 7 jours sur 7 et 24h via téléphone</h1>
+                            <a href="notre equipe.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft ">Notre equipe</a>
+                            <a href="contact.html" class="btn btn-danger py-md-3 px-md-5 animated slideInRight">Contactez-nous</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="imgs/forme11.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-3 animated slideInDown">Starlight Business</h4>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Nous faisons naître des ETOILES </h1>
+                            <a href="notre equipe.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Notre equipe</a>
+                            <a href="contact.html" class="btn btn-danger py-md-3 px-md-5 animated slideInRight">Contactez-nous</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Banner Start -->
+    <div class="container-fluid banner mb-5">
+        <div class="container">
+            <div class="row gx-0">
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="bg-primary d-flex flex-column p-5" style="height: 300px;">
+                        <h3 class="text-white mb-3">Heures d'ouverture</h3>
+                        <div class="d-flex justify-content-between text-white mb-3">
+                            <h6 class="text-white mb-0">Lundi - Samedi</h6>
+                            <p class="mb-0"> 8H - 17H</p>
+                        </div>
+                        <div class="d-flex justify-content-between text-white mb-3">
+                            <h6 class="text-white mb-0">Dimanche</h6>
+                            <p class="mb-0">Fermer</p>
+                        </div>
+                        <div class="d-flex justify-content-between text-white mb-3">
+                            <h6 class="text-white mb-0">Disponible</h6>
+                            <p class="mb-0">  via phone - 24/24</p>
+                        </div>
+                        <a class="btn btn-danger" href="contact.html">Prendre rendez-vous</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow zoomIn service-item wow zoomIn" data-wow-delay="0.3s"> 
+                    <img src="imgs/afro-american.jpg" alt="" width="100%" class="h-100">
+                    
+                </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="bg-danger d-flex flex-column p-5" style="height: 300px;">
+                        <h3 class="text-white mb-3">Starlight Business </h3>
+                        <div class="d-flex align-items-center mb-2">
+                                <i class="bi bi-geo-alt fs-1 text-primary me-2"></i>
+                                <div class="text-center">
+                                    <h5>Lambangny Commune de Ratoma, Guinée Conakry</h5>
+                                </div>
+                            </div>
+                        <h5 class="text-white text-center">Faire briller des Etoiles est une question d’expression</h5>
+
+                        <h5 class="text-white mb-0 text-center">+224 629 37 37 82 / 83</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner Start -->
+
+
+    
+        <!-- chrono-->
+
+        
+
+        <!-- chrono-->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title mb-4">
+                        <h1 class="position-relative d-inline-block text-primary text-danger">STARLIGHT GUINEE BUSINESS</h1>
+                        <h1 class="display-5 mb-0">Bienvenu chez les ETOILES</h1>
+                    </div>
+                    
+                    <p class="mb-4 text-justify">Nous sommes un réseau d'agence reparti entre la Côte d'Ivoire et la Guinée Conakry. Nous regroupons des passionnés qui aiment la "COM" comme jamais. On travaille fort, on réfléchit beaucoup, on dort là-dessus, on réfléchit encore, mais tourjours, on trouve la meilleure solution pour faire briller de belles étoiles dans la vie de nos clients. Bref!! on fait de la stra, du coaching, du branding, du web, du design et de la video. On aime ce qu'on fait et on est persuadé que vous aussi aimez ça! Animés par des valeurs de respect, de créativité, de dépassement et de performance, nous sommes l'agence qui priorisera vos projets en mettant tout le monde à contribution.</p>
+                    <div class="row g-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.3s">
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-danger me-3"></i>Ouvert Lun-Sam 6/7</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-danger me-3"></i>De 08h à 17h</h5>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-danger me-3"></i>Ouvert 24H/7 via phone</h5>
+                            <h5 class="mb-3"><i class="fa fa-check-circle text-danger me-3"></i>Contact ouvert 24h/24h</h5>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="btn btn-danger py-3 px-5 mt-4 wow zoomIn" data-wow-delay="0.6s">Contactez-vous</a>
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="imgs/single-projects.jpg" style="object-fit: cover;" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    
+
+    <!-- Appointment Start -->
+    <div class="bg-white my-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+                <hr class="text-danger container" style="border: 10px solid">
+            <div class="row gx-5">
+            <div class="col-lg-6 py-5">
+                    <div class="py-5">
+                        
+                             <h6 class="display-6 text-dark mb-6 text-center"> CAMERA DE SURVEILLANCE </h6>
+                        <p class="text-dark mb-0 text-center">
+                               
+                                Nous vous accompagnons dans le choix et la mise en place des solutions les mieux adaptées à vos besoins et face à tous types de risque (vol, incendie, …).
+                                Petits commerces, grandes surfaces, entrepôts, hôtels, restaurants… sécurisez vos caisses et marchandises, surveillez les zones sensibles, protégez les chambres et contrôlez les allées et venues afin de lutter contre les vols et agressions. Grâce à nos systèmes de vidéo-protection allant de la simple caméra à la caméra IP, permettant de visualiser les images sur un même écran, et faites des levés de doute en consultant les enregistrements <br>
+                            </p>
+                    </div>
+                    <div class="col-12">
+                            <button class="btn btn-danger w-100 py2" type=""> <h5 class="text-center text-light"> STARLIGHT BUSINESS LE NUMBER ONE</h5> 
+                            </button>
+                    </div>
+                   
+              </div>
+                  
+
+                <div class="col-lg-6 py-5">
+                    <div class="py-5">
+                      
+                       <div class="container">
+                        <img src="imgs/CAMERA (2).jpg" alt="" class="text-center ">
+                       </div>
+                    </div>
+                    <div class="col-12">
+                            <button class="btn btn-danger w-100 py2" type=""> <h5 class="text-center text-light"> IN COMMUNICATION AND MISCELLANEOUS</h5> 
+                            </button>
+                    </div>
+                </div>
+                <hr class="text-danger container " style="border: 10px solid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5 mb-5">
+                <div class="col-lg-5 wow zoomIn" data-wow-delay="0.3s" style="min-height: 400px;">
+                    <div class=" position-relative h-100 rounded overflow-hidden service-item wow zoomIn">
+                        <img class="position-absolute w-100 h-100" src="imgs/compta.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="imgs/compta.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="section-title mb-5">
+                        <h1 class="position-relative d-inline-block text-danger text-uppercase">STARLIGHT BUSINESS GUINEE </h1>
+                        <h1 class="text-center text-danger">*************</h1> 
+
+                        <h1 class="display-5 mb-0">Nos dernières réalisations</h1>
+                    </div>
+                    <div class="row g-5">
+                        <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="imgs/image1.jpg" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Festival des grillades 2019</h5>
+                                        <p> Création des affiches et supports</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.9s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="imgs/Symposium1.jpg" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Symposium des Mines 2019</h5>
+                                      <p>Couverture médiatique du symposium</p>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-7">
+                    <div class="row g-5">
+                        <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.3s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="imgs/guinee indis.jpg" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Guinée Industrie</h5>
+                                   <p> Conception des affiches & panneaux</p> 
+                            </div>
+                        </div>
+                        <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
+                            <div class="rounded-top overflow-hidden">
+                                <img class="img-fluid" src="imgs/Symposium2.jpg" alt="">
+                            </div>
+                            <div class="position-relative bg-light rounded-bottom text-center p-4">
+                                <h5 class="m-0">Symposium des Mines 2019</h5>
+                                      <p>Couverture médiatique</p>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 service-item wow zoomIn" data-wow-delay="0.9s">
+                    
+                       <div class="">
+                        <img src="imgs/ccg.jpg" alt="" class="w-100 ">
+                        <h2 class="text-white mb-0">C.C.G. sarl </h2>
+                        
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Offer Start -->
+       
+    <!-- Offer End -->
+
+
+    <!-- Pricing Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <div class="section-title mb-4">
+                        <h1 class="position-relative d-inline-block text-danger text-uppercase">STARLIGHT GUINEE</h1>
+                        <h1 class="display-5 mb-0">Postes a pouvoir </h1>
+                    </div>
+                    <h3 class="text-danger">Message </h3>  <h3 class="text-dark">au CANDIDAT(E)S </h3> 
+                    <img src="imgs/offre.jpg" alt="">
+                    <h5 class="text-uppercase text-primary wow fadeInUp" data-wow-delay="0.3s">Joignable 24/7</h5>
+                    <h3 class="wow fadeInUp" data-wow-delay="0.6s">+224 629 37 37 82 / 83</h3>
+                </div>
+                <div class="col-lg-7">
+                    <div class="owl-carousel price-carousel wow zoomIn" data-wow-delay="0.9s">
+                        <div class="price-item pb-4">
+                            <div class="position-relative">
+                                <img class="img-fluid rounded-top" src="imgs/dev-web .jpg" alt="">
+                                <div class="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle" style="z-index: 2;">
+                                    <h2 class="text-danger m-0"> PROGRAMMATION </h2>
+                                </div>
+                            </div>
+                            <div class="position-relative text-center bg-light border-bottom border-primary py-5 p-4">
+                                <h4>Compétances</h4>
+                                <hr class="text-primary w-50 mx-auto mt-0">
+                                <div class="d-flex justify-content-between mb-3"><span> Tu comprends les différents langages et tu developpes des applications android, IOS</span><i class=""></i></div>
+                                
+                                <a href="" class="btn btn-danger py-2 px-4 position-absolute top-100 start-50 translate-middle">STARLIGHT</a>
+                            </div>
+                        </div>
+                        <div class="price-item pb-4">
+                            <div class="position-relative">
+                                <img class="img-fluid rounded-top" src="imgs/shop.jpg" alt="">
+                                <div class="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle" style="z-index: 2;">
+                                    <h2 class="text-danger m-0">COMMERCIAL</h2>
+                                </div>
+                            </div>
+                            <div class="position-relative text-center bg-light border-bottom border-primary py-5 p-4">
+                                <h4>Compétances</h4>
+                                <hr class="text-primary w-50 mx-auto mt-0">
+                                <div class="d-flex justify-content-between mb-3"><span>Tu es un commercial aguéri! Viens faire tes preuves de marchés</span><i class=""></i></div>
+                              
+                                <a href="appointment.html" class="btn btn-danger py-2 px-4 position-absolute top-100 start-50 translate-middle">STARLIGHT</a>
+                            </div>
+                        </div>
+                        <div class="price-item pb-4">
+                            <div class="position-relative">
+                                <img class="img-fluid rounded-top" src="imgs/interprete.jpg" alt="">
+                                <div class="d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute top-100 start-50 translate-middle" style="z-index: 2;">
+                                    <h2 class="text-danger m-0">INTERPRETE</h2>
+                                </div>
+                            </div>
+                            <div class="position-relative text-center bg-light border-bottom border-primary py-5 p-4">
+                                <h4>Compétances</h4>
+                                <hr class="text-primary w-50 mx-auto mt-0">
+                                <div class="d-flex justify-content-between mb-3"><span>Tu peux traduire en direct ?
+                                    Can you translate live?
+                                    ¿Puedes traducir en vivo? </span><i class=""></i></div>
+                           
+                                <a href="appointment.html" class="btn btn-danger py-2 px-4 position-absolute top-100 start-50 translate-middle">STARLIGHT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing End -->
+
+
+    <!-- Testimonial Start -->
+   
+    <!-- Testimonial End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.1s">
+                    <div class="section-title bg-light rounded h-100 p-5">
+                        <h2 class="position-relative d-inline-block text-danger text-uppercase">Nos services</h2>
+                        <p class=" mb-4">Nous proposons diffférents services qui sont détaillés juste en dessous!
+                                Chaque jour, nous innovons un peu plus afin de repondre aux nouveaux défis</p>
+                                <p class=" mb-4">Votre image de marque est de nos affaires, et nous adorons le faire.</p>
+                        <a href="" class="btn btn-danger py-3 px-5">STARLIGHT</a>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative rounded-top">
+                            <img class="w-100" src="imgs/rxsociaux/tousR.jpg" alt="">
+                           
+                        </div>
+                        <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                            <h2 class="mb-2">GESTION</h2>
+                            <h3 class="text-primary mb-0">Des Reseaux Sociaux</h3>
+                        </div>
+                    </div>
+                </div>
+
+                                
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item">
+                        <div class="position-relative rounded-top" style="z-index: 1;">
+                            <img class=" w-100" src="imgs/coch.jpg" alt="">
+                           
+                        </div>
+                        <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                            <h3 class="mb-2">MANAGEMENT</h3>
+                            <h4 class="text-primary mb-0">Coching & Formation</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 wow slideInUp" data-wow-delay="0.6s">
+                        <div class="team-item">
+                            <div class="position-relative rounded-top" style="z-index: 1;">
+                                <img class=" w-100" src="imgs/evenement.jpg" alt="">
+                               
+                            </div>
+                            <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                                <h3 class="mb-2">EVENEMENTIEL</h3>
+                                <h4 class="text-primary mb-0">Inauguration et autres... </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                <div class="col-lg-3 wow slideInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative rounded-top" style="z-index: 1;">
+                            <img class="img-fluid rounded-top w-100" src="imgs/PUBbb.jpg" alt="">
+                            
+                        </div>
+                        <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                            <h2 class="mb-2">PUBLICITÉ</h2>
+                            <h4 class="text-primary mb-0">Télévision-Web-Affichage..</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative rounded-top" style="z-index: 1;">
+                            <img class="img-fluid rounded-top w-100 h-10" src="imgs/affiches.jpg" alt="">
+                           
+                        </div>
+                        <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                            <h3 class="mb-2 text-center">INFOGRAPHIE</h3>
+                            <h3 class="text-primary mb-0">Pannaux-Affichage...<h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item">
+                        <div class="position-relative rounded-top" style="z-index: 1;">
+                            <img class="img-fluid rounded-top w-100" src="imgs/CONSSS.jpg" alt="">
+                           
+                        </div>
+                        <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                            <h2 class="mb-2">CONSULTING</h2>
+                            <h4 class="text-primary mb-0">CONSEIL & STRATÉGIE</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+     <!-- Partenaires -->
+    
+                   
+                      
+    <!-- Partenaires-->
+
+    <!-- loading start -->
+    <div class="row col-12">
+        <div class="col-4 ">
+    <article class="my-2" id="spinners">
+        <div class="bd-heading sticky-xl-top text-center mt-5 mb-3 mt-xl-0 mb-xl-2">
+        
+    
+          <div class="bd-example ">
+          
+          <div class="spinner-grow text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-secondary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-warning" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-info" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-grow text-dark" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+         
+          </div>
+        </div>
+      </article>
+      </div>
+
+      <div class="col-4 ">
+            <article class="my-2" id="spinners">
+                <div class="bd-heading sticky-xl-top text-center mt-5 mb-3 mt-xl-0 mb-xl-2">
+                  
+                <div>
+                  <div class="bd-example">
+                  
+                  <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-secondary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-success" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-danger" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-warning" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-info" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-border text-dark" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                 
+                  </div>
+            
+                 
+                </div>
+              </article>
+              </div>
+
+        <div class="col-4 ">
+            <article class="my-2" id="spinners">
+                <div class="bd-heading sticky-xl-top text-center mt-5 mb-3 mt-xl-0 mb-xl-2">
+                  
+               
+            
+                  <div class="bd-example ">
+                  
+                  <div class="spinner-grow text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-secondary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-success" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-danger" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-warning" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-info" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <div class="spinner-grow text-dark" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  
+                  </div>
+                </div>
+              </article>
+            </div>
+    </div>
+    <!-- loading End -->
+    <div class="container col-12">
+        <div class=" text-danger text-center">
+            <h3>Nos partenaires de confiance partout en GUINEE CONAKRY et ailleurs.</h3>
+        </div>
+
+    </div>
+        <!-- partener start -->
+        <div class="container-fluid py-5">
+                <div class="container-fluid">
+                    <div class="row col-12">
+                        
+                        <div class="col-lg-2 wow slideInUp" data-wow-delay="0.1s">
+                            <div class="team-item">
+                                <div class="position-relative rounded-top" style="z-index: 1;">
+                                    <img class="img-fluid rounded-top w-100" src="imgs/partenaires/team1.jpg" alt="">
+                                    
+                                </div>
+                                <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                                    <h2 class="mb-2">GDG RATOMA</h2>
+                                    <p class="text-primary mb-0">- Developpement Web et Mobile <br>
+                                            - Cloud
+                                            - Google Assistant <br>
+                                            - Busness Solutions</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 wow slideInUp" data-wow-delay="0.1s">
+                                <div class="team-item">
+                                    <div class="position-relative rounded-top" style="z-index: 1;">
+                                        <img class="img-fluid rounded-top w-100" src="imgs/partenaires/team2.jpg" alt="">
+                                        
+                                    </div>
+                                    <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                                        <h2 class="mb-2">PRES <br>
+                                            TELECT</h2>
+                                        <p class="text-primary mb-0">- Geolocalisation
+                                                - Gestion de carburant
+                                                - Video surveillance <br> -Système d'alarme</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2 wow slideInUp" data-wow-delay="0.1s">
+                                    <div class="team-item">
+                                        <div class="position-relative rounded-top" style="z-index: 1;">
+                                            <img class="img-fluid rounded-top w-100" src="imgs/partenaires/team3.jpg" alt="">
+                                            
+                                        </div>
+                                        <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                                            <h2 class="mb-2">STM SERVICES</h2>
+                                            <p class="text-primary mb-0"> Import-export
+                                                  <br>  - Prestations de services
+                                                  <br>  - Ravitaillement maritine <br>
+                                                    - Evenementiel</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 wow slideInUp" data-wow-delay="0.1s">
+                                        <div class="team-item">
+                                            <div class="position-relative rounded-top" style="z-index: 1;">
+                                                <img class="img-fluid rounded-top w-100" src="imgs/partenaires/team4.jpg" alt="">
+                                                
+                                            </div>
+                                            <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                                                <h2 class="mb-2">HIGH WAY</h2>
+                                                <p class="text-primary mb-0"> Film d'entreprise
+                                                        - Film institutionnel
+                                                        - Film publicitaire
+                                                        - Reportage événementiel
+                                                        - Documentaire</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                       
+                        <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                            <div class="team-item">
+                                <div class="position-relative rounded-top" style="z-index: 1;">
+                                    <img class="img-fluid rounded-top w-100" src="imgs/partenaires/part1.jpg" alt="">
+                                   
+                                </div>
+                                <div class="team-text position-relative bg-light text-center rounded-bottom p-4 pt-5">
+                                    <h6 class="mb-2">SPONSOR AVEC STARLIGHT </h6>
+                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- partener End -->
+    <!-- Newsletter Start -->
+    <div class="container-fluid position-relative pt-5 wow fadeInUp" data-wow-delay="0.1s" style="z-index: 1;">
+        <div class="container">
+            <div class="bg-danger p-5">
+                <form class="mx-auto" style="max-width: 400px;">
+                    <div class="input-group text-center">
+                        <button class="btn-primary">
+                        <h1 class="text-center">Starlight Business</h1></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter End -->
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -75px;">
+        <div class="container pt-5">
+            <div class="row g-5 pt-4">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Liens rapide</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-light mb-2" href="index.html"><i class="bi bi-arrow-right text-danger me-2"></i>Acceuil</a>
+                        <a class="text-light mb-2" href="services.html"><i class="bi bi-arrow-right text-danger me-2"></i>Services</a>
+                        <a class="text-light" href="realisation.html"><i class="bi bi-arrow-right text-danger me-2"></i>Nos réalisations</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Découvrir</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                  
+                        <a class="text-light mb-2" href="coupdecoeur.html"><i class="bi bi-arrow-right text-danger me-2"></i>Coup de coeur</a>
+                        <a class="text-light mb-2" href="notre equipe.html"><i class="bi bi-arrow-right text-danger me-2"></i>Nous joindre</a>
+                        <a class="text-light" href="contact.html"><i class="bi bi-arrow-right text-danger me-2"></i>Contactez-nous</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Localisation</h3>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-danger me-2"></i>Lambangny,Guinée Conakry</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-danger me-2"></i>info@starlightgn.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-danger me-2"></i>+224 629 37 37 82 / 83</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Suivez nous ici</h3>
+                    <div class="d-flex">
+                        <a class="btn btn-lg btn-danger btn-lg-square rounded me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-lg btn-danger btn-lg-square rounded me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-lg btn-danger btn-lg-square rounded me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        <a class="btn btn-lg btn-danger btn-lg-square rounded" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-light py-4" style="background: #051225;">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0"> &copy; 2023 <a class="text-white border-bottom" href="#">starlightbusiness.com</a>. Tout droit reservé</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">L'entreprise d'inspiration <a class="text-white border-bottom" href="https://starlightbusiness.com">STARLIGHT BUSINESS</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-danger btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="lib/twentytwenty/jquery.event.move.js"></script>
+    <script src="lib/twentytwenty/jquery.twentytwenty.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
